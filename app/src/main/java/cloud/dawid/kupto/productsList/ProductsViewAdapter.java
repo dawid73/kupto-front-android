@@ -59,9 +59,10 @@ public class ProductsViewAdapter extends RecyclerView.Adapter<ProductsViewAdapte
         viewHolder.deleteImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, "Usuwasz: " + arrayListProducts.get(i).getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Delete: " + arrayListProducts.get(i).getName(), Toast.LENGTH_SHORT).show();
                 RetrofitRequest.delete(arrayListProducts.get(i).getId());
-
+                arrayListProducts.remove(i);
+                notifyDataSetChanged();
             }
         });
     }

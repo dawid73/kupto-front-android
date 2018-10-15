@@ -34,9 +34,8 @@ public class ProductsList extends AppCompatActivity {
         Log.d(TAG, "onCreate: started");
 
         getProducts();
-
-
     }
+
 
     private void getProducts(){
 

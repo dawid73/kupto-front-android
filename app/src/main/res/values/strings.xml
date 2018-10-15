@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">kupto</string>
+    <string name="aplikacja">KupTo MENU</string>
+    <string name="domena">dawid.cloud</string>
+    <string name="lista">Lista</string>
+    <string name="home">Strona główna</string>
+    <string name="list">Lista</string>
+    <string name="contact">Kontakt</string>
+    <string name="products_name">Produkt</string>
+</resources>
